@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Minimal-Blog-Template</title>
+</head>
+
+<body>
+    <section id="header-section">
+        <header>
+            <!-- logo -->
+            <img src="./assets/images/logo.svg" id="logo" alt="logo" />
+            <!-- navigation bar -->
+            <nav>
+                <ul>
+                    <li class="nav-list"><a href="#">Daily Digest</a></li>
+                    <li class="nav-list"><a href="#">Design Tools</a></li>
+                    <li class="nav-list"><a href="#">Tutorials</a></li>
+                    <li class="nav-list">
+                        <button>Subcribe</button>
+                    </li>
+                </ul>
+            </nav>
+            <i id="menu-icon" class="fa fa-bars"></i>
+        </header>
+    </section>
+
+    <!-- Hero Section -->
+    <section id="hero-section">
+        <div id="greeting">
+            👋
+            <p>Meet Personally</p>
+        </div>
+
+        <h1>
+            Minimal blog template for <br />
+            creative expressions
+        </h1>
+        <p class="hero-p2">
+            100% customisable and SEO-friendly blog template for personal and
+            commercial purposes.
+        </p>
+    </section>
+
+    <!-- blogs section -->
+    <section id="blogs-section">
+        <div class="view-all">
+            <h2>Daily Digest</h2>
+            <button>View all</button>
+        </div>
+
+        <div class="blogs-container">
+            <div class="blog">
+                <!-- texts -->
+                <div class="texts">
+                    <span>AUGUST 13,2021</span>
+                    <h2>
+                        10 Hilarious Cartoons That Depict Real-Life Problems of
+                        Programmers
+                    </h2>
+                    <p>
+                        Redefined the user acquisition and redesigned the onboarding
+                        experience, all within 3 working weeks
+                    </p>
+                </div>
+                <img src="./assets/images/blog-image1.svg" class="blog-img" />
+            </div>
+
+            <div class="blog">
+                <!-- texts -->
+                <div class="texts">
+                    <span>AUGUST 13,2021</span>
+                    <h2>
+                        10 Hilarious Cartoons That Depict Real-Life Problems of
+                        Programmers
+                    </h2>
+                    <p>
+                        Redefined the user acquisition and redesigned the onboarding
+                        experience, all within 3 working weeks
+                    </p>
+                </div>
+                <img src="./assets/images/blog-image2.svg" class="blog-img" />
+            </div>
+
+            <div class="blog">
+                <!-- texts -->
+                <div class="texts">
+                    <span>AUGUST 13,2021</span>
+                    <h2>
+                        10 Hilarious Cartoons That Depict Real-Life Problems of
+                        Programmers
+                    </h2>
+                    <p>
+                        Redefined the user acquisition and redesigned the onboarding
+                        experience, all within 3 working weeks
+                    </p>
+                </div>
+                <img src="./assets/images/blog-image3.svg" class="blog-img" />
+            </div>
+        </div>
+
+        <div class="view-all">
+            <h2>Design Tools</h2>
+            <button>View all</button>
+        </div>
+
+        <div class="blogs-container">
+            <div class="blog">
+                <!-- texts -->
+                <div class="texts">
+                    <span>AUGUST 13,2021</span>
+                    <h2>
+                        10 Hilarious Cartoons That Depict Real-Life Problems of
+                        Programmers
+                    </h2>
+                    <p>
+                        Redefined the user acquisition and redesigned the onboarding
+                        experience, all within 3 working weeks
+                    </p>
+                </div>
+                <img src="./assets/images/blog-image1.svg" class="blog-img" />
+            </div>
+
+            <div class="blog">
+                <!-- texts -->
+                <div class="texts">
+                    <span>AUGUST 13,2021</span>
+                    <h2>
+                        10 Hilarious Cartoons That Depict Real-Life Problems of
+                        Programmers
+                    </h2>
+                    <p>
+                        Redefined the user acquisition and redesigned the onboarding
+                        experience, all within 3 working weeks
+                    </p>
+                </div>
+                <img src="./assets/images/blog-image2.svg" class="blog-img" />
+            </div>
+
+            <div class="blog">
+                <!-- texts -->
+                <div class="texts">
+                    <span>AUGUST 13,2021</span>
+                    <h2>
+                        10 Hilarious Cartoons That Depict Real-Life Problems of
+                        Programmers
+                    </h2>
+                    <p>
+                        Redefined the user acquisition and redesigned the onboarding
+                        experience, all within 3 working weeks
+                    </p>
+                </div>
+                <img src="./assets/images/blog-image3.svg" class="blog-img" />
+            </div>
+        </div>
+        <div class="box"></div>
+
+    </section>
+
+    <script>
+        class Person {
+            constructor(name, age, salary) {
+                this.name = name;
+                this.age = age;
+                this.salary = salary;
+            }
+            salary = 123;
+            greet() {
+                console.log(
+                    `Hello, my name is ${this.name}. I am ${this.age} years old. I earn ${this.salary} monthly`
+                );
+            }
+        }
+
+        const student = new Person("Ada", 21, 2000);
+        const student2 = new Person("Buchi", 100, 10000);
+        console.log(student);
+        student2.greet();
+        student.greet();
+
+        const details = {
+            name: "Callistus",
+            age: 16,
+            salary: 100,
+            isMarried: false,
+            isStingy: true,
+            speak: function () {
+                console.log(`I am ${this.name}. I am ${this.age} years`);
+            },
+        };
+
+        details.speak();
+    </script>
+</body>
+
+</html>
